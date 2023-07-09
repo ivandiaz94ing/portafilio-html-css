@@ -4,7 +4,13 @@
 }
 body{
     box-sizing: border-box;
-    margin: 35px;
+    background-image: url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    
 }
 header{ 
     height: 35px;
@@ -63,3 +69,20 @@ p{
 /*INICIO PROPIEDADES DE CV O HV*/
 
 /*FIN PROPIEDADES DE CV O HV*/
+
+/*INICIO PROPIEDADES DE CONTACTO*/
+footer{
+    height: 150px;
+    background-color: #341875;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0;
+    padding: 52px;
+    opacity: 0.8;
+    
+}
+footer p {
+    background-color: darkslateblue;
+    padding-left: 50px;
+}
+/*FIN PROPIEDADES DE CONTANTO*/
