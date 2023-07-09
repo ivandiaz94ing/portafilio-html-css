@@ -1,0 +1,65 @@
+/*INICIO PROPIEDADES COMPARTIDAS*/
+:root{
+    --primario: #ccc;
+}
+body{
+    box-sizing: border-box;
+    margin: 35px;
+}
+header{ 
+    height: 35px;
+}
+
+nav{
+    display: flex;
+    width: 650px;
+    height: 35px;
+    align-items: center;
+    justify-content: space-around;
+}
+.label{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    font-family: montserrat;
+    text-decoration: none;
+    padding: 4px;
+}
+.contenedor-li{
+    width: 650px;
+    display: flex;
+    height: 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+ul :hover  {
+    background-color: teal;
+    color: rgb(241, 239, 239);
+
+}
+/*FIN PROPIEDADES COMPARTIDAS*/
+
+
+
+
+/*INICIO PROPIEDADES DEL  ABOUT*/
+p{
+    background-color: var(--primario)
+}
+/*FIN PROPIEDADES DEL  ABOUT*/
+
+
+
+/*INICIO PROPIEDADES DEL INDEX*/
+
+/*FIN PROPIEDADES DEL INDEX*/
+
+
+
+/*INICIO PROPIEDADES DE CV O HV*/
+
+/*FIN PROPIEDADES DE CV O HV*/
