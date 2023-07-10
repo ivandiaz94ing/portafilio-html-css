@@ -4,7 +4,7 @@
 }
 body{
     box-sizing: border-box;
-    background-image: url("./img/fondo.jpg");
+    background-image: url("./img/4.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -73,7 +73,7 @@ p{
 /*INICIO PROPIEDADES DE CONTACTO*/
 footer{
     height: 150px;
-    background-color: #341875;
+    background-color: #1a1a1a;
     margin-left: 0px;
     margin-right: 0px;
     margin: 0;
@@ -84,5 +84,11 @@ footer{
 footer p {
     background-color: darkslateblue;
     padding-left: 50px;
+}
+
+.container-contacto{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
 }
 /*FIN PROPIEDADES DE CONTANTO*/

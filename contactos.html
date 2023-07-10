@@ -19,7 +19,26 @@
     </header>
 
     <div class="container-contacto">
-        <p>Nombre completo: </p>
+        <form action="">
+            <label for="contacto">Nombre Completo: </label>
+            <input type="text" name="nombres" placeholder="Ingresar su nombre" required
+            pattern="^[A-Za-z]+$" title="Solo se aceptan letras" autocomplete="off"><br><br>
+
+            <label for="correo">Correo Electronico: </label>
+            <input type="email" name="correo" placeholder="example@gmail.com" required
+            pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Formato de correo invalido"><br><br>
+
+            <label for="asunto">Asunto del  correo: </label>
+            <input type="text" name="asunto" placeholder="Digitar el asunto" required>
+            <br><br>
+
+            <label for="cuerpo">Cuerpo del correo: </label>
+            <input type="text" name="cuerpo" placeholder="maximo 600 caracteres" required>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <br><br>
+
+        </form>
 
     </div>
 
