@@ -67,6 +67,22 @@ p{
 
 
 /*INICIO PROPIEDADES DE CV O HV*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 850px;
+    height: 850px;
+    background-color: rgb(77, 72, 72);
+    box-shadow: 5px -3px 5px yellow;
+    margin-top: 35px;
+}
+.main1 {
+    background: linear-gradient(to bottom right, blue, pink);
+  }
 
 /*FIN PROPIEDADES DE CV O HV*/
 
