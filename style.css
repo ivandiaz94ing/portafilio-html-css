@@ -1,6 +1,8 @@
 /*INICIO PROPIEDADES COMPARTIDAS*/
 :root{
     --primario: #ccc;
+    --tittle: #fecb00;
+    --montserrat: "montserrat";
 }
 body{
     box-sizing: border-box;
@@ -43,8 +45,9 @@ li{
     list-style: none;
 }
 ul :hover  {
-    background-color: teal;
-    color: rgb(241, 239, 239);
+    background-color: var(--tittle);
+    border-radius: 5%;
+    color: rgb(5, 5, 5);
 
 }
 /*FIN PROPIEDADES COMPARTIDAS*/
@@ -68,12 +71,11 @@ p{
 
 /*INICIO PROPIEDADES DE CV O HV*/
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
 }
 .container{
-    display: flex;
+    display: flex; 
     width: 850px;
     height: 850px;
     background-color: rgb(77, 72, 72);
@@ -81,8 +83,64 @@ main{
     margin-top: 35px;
 }
 .main1 {
-    background: linear-gradient(to bottom right, blue, pink);
+    background: linear-gradient(50deg, blue, rgb(235, 209, 66));
   }
+
+  .foto-perfil{
+   display: grid;
+   grid-template-columns: 1fr;
+  }
+
+  .foto-perfil img{
+    width: 95%;
+    margin: 2px auto;
+    border-radius: 2%;
+
+  }
+
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 155px;
+    background-color: var(--tittle);
+    width: 100%;
+    padding: 0px;
+    margin-top: 45px;
+    
+}
+.contenedor-title > *{
+
+    margin-left: 25px;
+    font-family: var(--montserrat);
+    margin-block-start: 0;
+    margin-block-end: 0 ;
+}
+
+.perfillaboral{
+    margin-top: 10px;
+    background-color: aquamarine;
+    font-family: 'Poppins';
+}
+
+.perfillaboral > * {
+    margin-left: 25px;
+    margin-right: 40px;
+}
+div hr{
+    width: 80%;
+    margin-left: 0;
+}
+.descripcionPerfil{
+    text-align: justify;
+} 
 
 /*FIN PROPIEDADES DE CV O HV*/
 
