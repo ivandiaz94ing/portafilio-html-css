@@ -61,6 +61,11 @@ ul :hover  {
 
 
 /*INICIO PROPIEDADES DEL INDEX*/
+.container-img{
+    background-color: salmon;
+    width: 500px;
+    height: 350px;
+}
 
 /*FIN PROPIEDADES DEL INDEX*/
 
