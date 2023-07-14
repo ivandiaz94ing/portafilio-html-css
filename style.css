@@ -57,7 +57,6 @@ ul :hover  {
 
 /*INICIO PROPIEDADES DEL  ABOUT*/
 p{
-    background-color: var(--primario)
 }
 /*FIN PROPIEDADES DEL  ABOUT*/
 
@@ -76,10 +75,10 @@ justify-content: center;
 }
 .container{
     display: flex; 
-    width: 850px;
-    height: 850px;
+    width: 980px;
+    height: 1150px;
     background-color: rgb(77, 72, 72);
-    box-shadow: 5px -3px 5px yellow;
+    box-shadow: 5px -3px 5px white;
     margin-top: 35px;
 }
 .main1 {
@@ -92,7 +91,7 @@ justify-content: center;
   }
 
   .foto-perfil img{
-    width: 95%;
+    width: 98%;
     margin: 2px auto;
     border-radius: 2%;
 
@@ -113,25 +112,25 @@ justify-content: center;
     background-color: var(--tittle);
     width: 100%;
     padding: 0px;
-    margin-top: 45px;
+    margin-top: .5px;
     
 }
 .contenedor-title > *{
 
-    margin-left: 25px;
+    margin-left: 40px;
     font-family: var(--montserrat);
     margin-block-start: 0;
     margin-block-end: 0 ;
 }
 
 .perfillaboral{
-    margin-top: 10px;
+    margin-top: 0;;
     background-color: aquamarine;
     font-family: 'Poppins';
 }
 
 .perfillaboral > * {
-    margin-left: 25px;
+    margin-left: 40px;
     margin-right: 40px;
 }
 div hr{
@@ -140,7 +139,44 @@ div hr{
 }
 .descripcionPerfil{
     text-align: justify;
+    text-decoration: none;
 } 
+
+.container-exper{
+    display: flex;
+}
+
+.estudiosandexper > *{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.years{
+    width: 40%;
+}
+
+.descriptionexperiencia{
+    width: 60%;
+}
+
+
+.desc-tareas{
+    text-align: justify;
+}
+
+.habilidades{
+    background-color: darkslateblue;
+}
+.habilidades > *{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
+}
+
 
 /*FIN PROPIEDADES DE CV O HV*/
 
