@@ -4,14 +4,18 @@
     --tittle: #fecb00;
     --montserrat: "montserrat";
 }
+html{
+}
 body{
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     background-image: url("./img/4.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    height: 20em;
+    border: solid red;
+    min-height: 100vh;
+    
+
     
 }
 header{ 
@@ -50,6 +54,16 @@ ul :hover  {
     color: rgb(5, 5, 5);
 
 }
+
+footer{
+    color: white;
+    margin-top: auto;
+}
+
+main{
+    margin-bottom: 5px;
+    flex-grow: 1;
+}
 /*FIN PROPIEDADES COMPARTIDAS*/
 
 
@@ -79,7 +93,7 @@ justify-content: center;
 .container{
     display: flex; 
     width: 980px;
-    height: 1150px;
+    height: auto;
     background-color: rgb(77, 72, 72);
     box-shadow: 5px -3px 5px white;
     margin-top: 35px;
@@ -116,6 +130,7 @@ justify-content: center;
     width: 100%;
     padding: 0px;
     margin-top: .5px;
+    padding-bottom: 12px;
     
 }
 .contenedor-title > *{
@@ -177,9 +192,38 @@ div hr{
 .skill{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25%;
     /*grid-template-columns: 1fr 1fr;*/
 }
 
+.habilidades > *{
+    font-family: var(--montserrat);
+
+}
+
+.item1 {
+    background-color: seagreen;
+}
+
+.item2{
+    background-color: rgb(241, 35, 87);
+}
+.item3{
+    background-color: rgb(163, 182, 235);
+}
+
+.barra-skill{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-skill{
+    margin-left: 20px;
+}
+
+.item-skill > h6{
+    font-size: 80%;
+}
 
 /*FIN PROPIEDADES DE CV O HV*/
 
@@ -190,8 +234,7 @@ footer{
     margin-left: 0px;
     margin-right: 0px;
     margin: 0;
-    padding: 52px;
-    opacity: 0.8;
+    padding: 2px;
     
 }
 footer p {
