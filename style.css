@@ -4,8 +4,6 @@
     --tittle: #fecb00;
     --montserrat: "montserrat";
 }
-html{
-}
 body{
     display: flex;
     flex-direction: column;
