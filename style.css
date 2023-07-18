@@ -4,18 +4,16 @@
     --tittle: #fecb00;
     --montserrat: "montserrat";
 }
+
 body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     background-image: url("./img/4.jpg");
     background-position: center;
-    border: solid red;
     min-height: 100vh;
-    
-
-    
 }
+
 header{ 
     height: 35px;
 }
@@ -160,11 +158,15 @@ div hr{
 
 .container-exper{
     display: flex;
+    color: #ccc;
 }
 
 .estudiosandexper > *{
     margin-left: 40px;
     margin-right: 40px;
+    color: #ccc;
+    font-family: var(--montserrat);
+
 }
 .years{
     width: 40%;
@@ -213,6 +215,7 @@ div hr{
 .barra-skill{
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 20px;
 }
 
 .item-skill{
