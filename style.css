@@ -53,7 +53,23 @@ ul :hover  {
 
 footer{
     color: white;
-    margin-top: auto;
+    display: flex;
+    
+
+}
+.footer{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-grow: 1;
+}
+footer .iconos{
+    font-size: 100px;
+    flex-wrap: 25px;
+
 }
 
 main{
